@@ -1,14 +1,59 @@
-/*
-Theme Name: Livscoach
-Text Domain: Livscoach
-Version: 1.0
-Description: Theme for Livscoach.nu
-Tags: lifecoach, health, coach
-Author: Jenny Svensson
-Author URI: http://jenny-svensson.se
-*/
+.header {
+    display: flex;
+    flex-direction: column; 
+    align-items: flex-start; 
+    background-color: #1D281B;
+    color: #f2f2f2;
+    width: 100%; 
+}
 
+.header__title-container {
+    margin-bottom: 0.3rem; 
+}
 
-body {
-    background-color: green;
+.header__flex-container {
+    display: flex;
+    justify-content: space-between; 
+    width: 100%; 
+    max-width: 100%; 
+    background-color: #485D4C;
+}
+
+.header__site-title {
+    font-size: 48px;
+    color: #A5924E;
+    padding-left: 96px;
+}
+
+p {
+    padding: 10px;
+    margin-bottom: 0;
+}
+
+a {
+    text-decoration: none;
+    color: #f2f2f2;
+
+}
+
+.header__subtitle {
+    flex-grow: 1; 
+    text-align: left; 
+    padding-left: 96px;
+}
+
+.header__navbar {
+    flex-shrink: 0; 
+    padding-right: 96px;
+
+}
+
+.navbar-nav{
+    padding: 10px;
+}
+
+.menu-item{
+    padding-left: 10px;
+    color: #f2f2f2;
+
 }
