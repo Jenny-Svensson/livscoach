@@ -1,15 +1,23 @@
-<!DOCTYPE html>
-<html lang="sv"> 
-    <head>
-        <title>Livscoach</title>
+<?php 
+get_header();
+?>
     
-        <?php 
-        wp_head();
-        ?>
-    </head> 
+	<article class="about-section content px-3 py-5 p-md-5">
 
-    <body>
-        <h1>Livscoach</h1>
-    </body>
-</html> 
+    <?php 
+      if(have_posts()) {
+        while(have_posts()) {
+          the_post();
+          the_content();
+        }
+      }
+    ?>
+
+	</article>
+
+
+<?php
+get_footer();
+?>
+
 
