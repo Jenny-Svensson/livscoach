@@ -6,7 +6,8 @@
         <?php 
         wp_head();
         ?>
-    </head> 
+
+</head> 
 
 
     <body>
@@ -17,6 +18,7 @@
         
         <div class="header__flex-container">
             <p class="header__subtitle">I samarbete med RGA Training Center</p>
+            
             
             <nav class="header__navbar navbar-expand-lg navbar-dark">
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navigation" aria-controls="navigation" aria-expanded="false" aria-label="Toggle navigation">
