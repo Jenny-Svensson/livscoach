@@ -1,0 +1,39 @@
+@font-face{
+    font-family: "Pontiac_Regular";
+    src: url('./Pontiac/Pontiac-Regular_1.woff') format('woff');
+}
+
+@font-face{
+    font-family: "Pontiac_Light";
+    src: url('./Pontiac/Pontiac-Light_1.woff') format('woff');
+}
+
+@font-face{
+    font-family: "Pontiac_Bold";
+    src: url('./Pontiac/Pontiac-Bold.woff') format('woff');
+}
+
+@font-face{
+    font-family: "Quiche_Regular";
+    src: url('./Quiche/QuicheDisplay-Regular.woff') format('woff');
+}
+
+@font-face{
+    font-family: "Quiche_Thin";
+    src: url('./Quiche/QuicheDisplay-Thin.woff') format('woff');
+}
+
+@font-face{
+    font-family: "Quiche_Light";
+    src: url('./Quiche/QuicheDisplay-Light.woff') format('woff');
+}
+
+@font-face{
+    font-family: "Quiche_Italic";
+    src: url('./Quiche/QuicheDisplay-Italic.woff') format('woff');
+}
+
+@font-face{
+    font-family: "Quiche_Bold";
+    src: url('./Quiche/QuicheDisplay-Bold.woff') format('woff');
+}
