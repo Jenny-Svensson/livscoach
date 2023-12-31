@@ -1,59 +1,120 @@
-.header {
-    display: flex;
-    flex-direction: column; 
-    align-items: flex-start; 
-    background-color: #1D281B;
-    color: #f2f2f2;
-    width: 100%; 
+@font-face{
+    font-family: "Pontiac_Regular";
+    src: url('assets/fonts/Pontiac/Pontiac-Regular_1.woff') format('woff');
 }
 
+@font-face{
+    font-family: "Pontiac_Light";
+    src: url('assets/fonts/Pontiac/Pontiac-Light_1.woff') format('woff');
+}
+
+@font-face{
+    font-family: "Pontiac_Bold";
+    src: url('assets/fonts/Pontiac/Pontiac-Bold.woff') format('woff');
+}
+
+@font-face{
+    font-family: "Quiche_Regular";
+    src: url('assets/fonts/Quiche/QuicheDisplay-Regular.woff') format('woff');
+}
+
+@font-face{
+    font-family: "Quiche_Thin";
+    src: url('assets/fonts/Quiche/QuicheDisplay-Thin.woff') format('woff');
+}
+
+@font-face{
+    font-family: "Quiche_Light";
+    src: url('assets/fonts/Quiche/QuicheDisplay-Light.woff') format('woff');
+}
+
+@font-face{
+    font-family: "Quiche_Italic";
+    src: url('assets/fonts/Quiche/QuicheDisplay-Italic.woff') format('woff');
+}
+
+@font-face{
+    font-family: "Quiche_Bold";
+    src: url('assets/fonts/Quiche/QuicheDisplay-Bold.woff') format('woff');
+}
+
+/* General Styles */
+body {
+    font-family: "Pontiac_Regular";
+    margin: 0;
+    padding: 0;
+}
+
+/* Header Styles */
 .header__title-container {
-    margin-bottom: 0.3rem; 
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 32px 32px 0 32px;
+}
+
+.header__navbar {
+    order: 2;
 }
 
 .header__flex-container {
-    display: flex;
-    justify-content: space-between; 
-    width: 100%; 
-    max-width: 100%; 
+    padding: 5px 32px;
     background-color: #485D4C;
+}
+
+.header {
+    background-color: #1D281B; 
 }
 
 .header__site-title {
     font-size: 48px;
     color: #A5924E;
-    padding-left: 96px;
-}
-
-p {
-    padding: 10px;
-    margin-bottom: 0;
-}
-
-a {
     text-decoration: none;
-    color: #f2f2f2;
-
+    font-family: "Quiche_Regular";
 }
 
 .header__subtitle {
-    flex-grow: 1; 
-    text-align: left; 
-    padding-left: 96px;
-}
-
-.header__navbar {
-    flex-shrink: 0; 
-    padding-right: 96px;
-
-}
-
-.navbar-nav{
-    padding: 10px;
-}
-
-.menu-item{
-    padding-left: 10px;
+    margin: 0;
+    font-size: 16px;
     color: #f2f2f2;
+    font-family: "Pontiac_Light";
+}
 
+/* Navigation Styles */
+#navigation {
+    background-color: #1D281B;
+    padding: 10px 0;
+}
+
+.navbar-nav {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.navbar-nav li {
+    margin-right: 15px;
+}
+
+.navbar-nav a {
+    color: #f2f2f2;
+    text-decoration: none;
+    padding: 5px 15px;
+    transition: background-color 0.3s;
+    font-size: 1rem;
+}
+
+.navbar-nav a:hover {
+    background-color: #485D4C;
+}
+
+.navbar-toggler {
+    border: none;
+}
+
+.navbar-toggler-icon {
+    height: 2rem;
+    width: 2rem;
 }
