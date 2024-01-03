@@ -9,9 +9,6 @@ body {
 
 /* Header Styles */
 .header__title-container {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
     padding: 32px 32px 0 32px;
 }
 
@@ -29,11 +26,9 @@ body {
 }
 
 .header__site-title {
-    font-size: 48px;
-    color: #A5924E;
-    text-decoration: none;
-    font-family: "Quiche_Regular";
+    padding-bottom: 20px;
 }
+
 
 .header__subtitle {
     margin: 0;
