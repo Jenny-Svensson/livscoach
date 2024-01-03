@@ -2,9 +2,20 @@
 
     function livscoach_theme_support() {
         add_theme_support('title-tag');
+        add_theme_support('custom-logo');
     }
 
     add_action('after_setup_theme','livscoach_theme_support');
+
+    function livscoach_menus() {
+        $locations = array(
+            "primary" => "Header menu items",
+            "footer" => "Footer menu items"
+        );
+        register_nav_menus($locations);
+    }
+
+    add_action('init', 'livscoach_menus');
 
     function livscoach_register_styles(){
         wp_enqueue_style('livscoach', get_template_directory_uri() . "/style.css", array('livscoach-bootstrap'), '1.0', 'all');

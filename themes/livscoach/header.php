@@ -9,7 +9,12 @@
 <header class="header text-center">    
 <div class="header__title-container d-flex justify-content-between align-items-center">        
             <a class="header__site-title pt-lg-4 mb-0" href="index.html">
-                <img src="<?php echo get_template_directory_uri(); ?>/assets/image/olga_logo.png" alt="Olga Logo" width="200">
+               <?php if(function_exists('the_custom_logo')){
+                 $custom_logo_id = get_theme_mod('custom_logo');
+                 $logo = wp_get_attachment_image_src($custom_logo_id);
+                }
+                ?>
+                <img class="mb-2 mx-auto logo" src="<?php echo $logo[0] ?>" alt="logo">
             </a>
         <nav class="header__navbar navbar-expand-lg navbar-dark">
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navigation" aria-controls="navigation" aria-expanded="false" aria-label="Toggle navigation">
