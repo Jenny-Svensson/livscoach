@@ -20,7 +20,9 @@
             <nav class="header__navbar navbar-expand-lg navbar-dark">
                 <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#navigation"
                     aria-controls="navigation" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
+                    <span class="bar bar1"></span>
+                    <span class="bar bar2"></span>
+                    <span class="bar bar3"></span>
                 </button>
             </nav>
         </div>

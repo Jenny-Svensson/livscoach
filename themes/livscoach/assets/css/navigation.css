@@ -55,3 +55,24 @@
 .menu-item {
     padding: 10px;
 }
+
+.navbar-toggler .bar {
+    background-color: #f2f2f2;
+    height: 2px;
+    width: 25px;
+    margin: 5px;
+    display: block;
+    transition: 0.6s;
+}
+
+.navbar-toggler[aria-expanded="true"] .bar1 {
+    transform: rotate(-45deg) translate(-6px, 4px);
+}
+
+.navbar-toggler[aria-expanded="true"] .bar2 {
+    opacity: 0;
+}
+
+.navbar-toggler[aria-expanded="true"] .bar3 {
+    transform: rotate(45deg) translate(-6px, -4px);
+}
