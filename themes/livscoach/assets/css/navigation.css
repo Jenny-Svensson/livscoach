@@ -1,0 +1,57 @@
+/* Navigation Styles */
+#navigation {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.9);
+    z-index: 10;
+    display: none;
+    overflow-y: auto;
+    padding-top: 100px;
+}
+
+#navigation.show {
+    display: block;
+}
+
+.navbar-nav {
+    list-style-type: none;
+    padding: 50px;
+    background-color: rgba(0, 0, 0, 0.507);
+}
+
+.navbar-nav li {
+    margin-right: 15px;
+}
+
+/* Using the fadeInLeft effect on hover from animate.css */
+.navbar-nav li:hover a {
+    animation-duration: 0.5s;
+    animation-name: fadeInLeft;
+}
+
+.navbar-nav a {
+    color: #f2f2f2;
+    text-decoration: none;
+    padding: 25px;
+    font-size: 2rem;
+}
+
+.navbar-nav a:hover {
+    text-transform: uppercase;
+}
+
+.navbar-toggler {
+    border: none;
+}
+
+.navbar-toggler-icon {
+    height: 2rem;
+    width: 2rem;
+}
+
+.menu-item {
+    padding: 10px;
+}

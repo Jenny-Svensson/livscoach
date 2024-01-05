@@ -8,6 +8,8 @@ Author: Jenny Svensson
 */
 
 @import url('assets/fonts/fonts.css');
+@import url('assets/css/header.css');
+@import url('assets/css/navigation.css');
 
 /* General Styles */
 body {
@@ -16,82 +18,6 @@ body {
     padding: 0;
     background-color: #1D281B;
     color: #f2f2f2;
-}
-
-/* Header Styles */
-.header__title-container {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 32px 32px 0 32px;
-}
-
-.header__site-title {
-    margin: 0 auto;
-}
-
-.header__navbar {
-    order: 2;
-}
-
-.header__flex-container {
-    padding: 5px 32px;
-    background-color: #485D4C;
-}
-
-.header {
-    background-color: #1D281B; 
-}
-
-.header__site-title {
-    padding-bottom: 20px;
-}
-
-
-.header__subtitle {
-    margin: 0;
-    font-size: 16px;
-    color: #f2f2f2;
-    font-family: "Pontiac_Light";
-}
-
-/* Navigation Styles */
-#navigation {
-    background-color: #1D281B;
-}
-
-.navbar-nav {
-    list-style-type: none;
-    padding: 50px;
-    background-color: rgba(0, 0, 0, 0.507);
-}
-
-.navbar-nav li {
-    margin-right: 15px;
-}
-
-.navbar-nav a {
-    color: #f2f2f2;
-    text-decoration: none;
-    padding: 25px;
-    font-size: 2rem;
-}
-
-.navbar-nav a:hover {
-    text-transform: uppercase;
-}
-
-.navbar-toggler {
-    border: none;
-}
-
-.navbar-toggler-icon {
-    height: 2rem;
-    width: 2rem;
-}
-
-.menu-item {
-    padding: 10px;
 }
 
 footer {

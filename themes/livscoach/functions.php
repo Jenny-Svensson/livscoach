@@ -24,6 +24,9 @@ function livscoach_register_styles()
     wp_enqueue_style('livscoach', get_template_directory_uri() . "/style.css", array('livscoach-bootstrap'), '1.0', 'all');
     wp_enqueue_style('livscoach-fontawesome', "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css", array(), '1.0', 'all');
     wp_enqueue_style('livscoach-bootstrap', "https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css", array(), '5.3.2', 'all');
+    wp_enqueue_style('livscoach-animatecss', "https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css", array(), '4.1.1', 'all');
+
+
 }
 add_action('wp_enqueue_scripts', 'livscoach_register_styles');
 

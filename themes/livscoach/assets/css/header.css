@@ -1,0 +1,36 @@
+/* Header Styles */
+.header__title-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 32px 32px 0 32px;
+}
+
+.header__site-title {
+    margin: 0 auto;
+}
+
+.header__navbar {
+    order: 2;
+    z-index: 1000;
+}
+
+.header__flex-container {
+    padding: 5px 32px;
+    background-color: #485D4C;
+}
+
+.header {
+    background-color: #1D281B;
+}
+
+.header__site-title {
+    padding-bottom: 20px;
+}
+
+.header__subtitle {
+    margin: 0;
+    font-size: 16px;
+    color: #f2f2f2;
+    font-family: "Pontiac_Light";
+}
