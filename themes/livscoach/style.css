@@ -1,3 +1,12 @@
+/*
+Theme Name: Livscoach
+Text Domain: Livscoach
+Version: 1.0
+Description: Livscoach med Olga Anton
+Tags: Livscoach, Hälsocombo, Samtalsstöd
+Author: Jenny Svensson
+*/
+
 @import url('assets/fonts/fonts.css');
 
 /* General Styles */
@@ -11,7 +20,14 @@ body {
 
 /* Header Styles */
 .header__title-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
     padding: 32px 32px 0 32px;
+}
+
+.header__site-title {
+    margin: 0 auto;
 }
 
 .header__navbar {
@@ -42,15 +58,12 @@ body {
 /* Navigation Styles */
 #navigation {
     background-color: #1D281B;
-    padding: 10px 0;
 }
 
 .navbar-nav {
     list-style-type: none;
-    padding: 0;
-    margin: 0;
-    display: flex;
-    justify-content: flex-end;
+    padding: 50px;
+    background-color: rgba(0, 0, 0, 0.507);
 }
 
 .navbar-nav li {
@@ -60,13 +73,12 @@ body {
 .navbar-nav a {
     color: #f2f2f2;
     text-decoration: none;
-    padding: 5px 15px;
-    transition: background-color 0.3s;
-    font-size: 1rem;
+    padding: 25px;
+    font-size: 2rem;
 }
 
 .navbar-nav a:hover {
-    background-color: #485D4C;
+    text-transform: uppercase;
 }
 
 .navbar-toggler {
@@ -76,6 +88,10 @@ body {
 .navbar-toggler-icon {
     height: 2rem;
     width: 2rem;
+}
+
+.menu-item {
+    padding: 10px;
 }
 
 footer {
