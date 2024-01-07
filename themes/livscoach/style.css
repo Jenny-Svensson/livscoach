@@ -10,6 +10,7 @@ Author: Jenny Svensson
 @import url('assets/fonts/fonts.css');
 @import url('assets/css/header.css');
 @import url('assets/css/navigation.css');
+@import url('assets/css/footer.css');
 
 /* General Styles */
 body {
@@ -18,8 +19,4 @@ body {
     padding: 0;
     background-color: #1D281B;
     color: #f2f2f2;
-}
-
-footer {
-    background-color: #6D8172;
 }
