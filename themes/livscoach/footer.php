@@ -1,4 +1,4 @@
-<footer class="footer text-center py-4 theme-bg-dark">
+<footer class="footer text-center px-5 py-4 theme-bg-dark">
     <h1 class="footer__title">Livscoach.nu | Olga Anton</h1>
 
     <div class="footer__content">

@@ -27,7 +27,7 @@
             </nav>
         </div>
 
-        <div class="header__flex-container d-flex">
+        <div class="header__flex-container d-flex px-5">
             <p class="header__subtitle">I samarbete med RGA Training Center</p>
             <div id="navigation" class="collapse navbar-collapse animate__animated animate__fadeIn">
                 <?php
