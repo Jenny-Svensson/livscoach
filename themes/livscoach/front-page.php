@@ -2,7 +2,7 @@
 get_header();
 ?>
 
-<section class="about-section content px-5 py-5 p-md-5">
+<section class="frontpage__section content">
 
   <?php
   if (have_posts()) {

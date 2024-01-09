@@ -26,12 +26,6 @@
     margin-right: 15px;
 }
 
-/* Using the fadeInLeft effect on hover from animate.css */
-.navbar-nav li:hover a {
-    animation-duration: 0.5s;
-    animation-name: fadeInLeft;
-}
-
 .navbar-nav a {
     color: #f2f2f2;
     text-decoration: none;
