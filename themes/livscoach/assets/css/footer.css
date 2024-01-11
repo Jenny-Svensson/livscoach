@@ -1,15 +1,12 @@
 footer {
     background-color: #6D8172;
+    flex-shrink: 0; /* This prevents the footer from shrinking when the content overflows */
 }
 
 .footer__content {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
-}
-
-.footer__content table {
-    width: 60%;
 }
 
 .footer__title {

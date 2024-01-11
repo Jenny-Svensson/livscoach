@@ -1,27 +1,12 @@
 <footer class="footer text-center px-5 py-4 theme-bg-dark">
-    <h1 class="footer__title">Livscoach.nu | Olga Anton</h1>
+    <h1 class="footer__title">Livscoach.nu</h1>
 
     <div class="footer__content">
-        <a class="footer__logo pt-lg-4 mb-0" href="index.html">
-            <?php if (function_exists('the_custom_logo')) {
-                $custom_logo_id = get_theme_mod('custom_logo');
-                $logo = wp_get_attachment_image_src($custom_logo_id);
-            }
-            ?>
-            <img class="mb-1 mx-auto logo" src="<?php echo $logo[0] ?>" alt="logo">
-        </a>
-
-        <table>
-            <tr>
-                <td>Baragatan 3, 212 28 Malmö</td>
-            </tr>
-            <tr>
-                <td>+46 765 545 34</td>
-            </tr>
-            <tr>
-                <td>olga@livscoach.nu</td>
-            </tr>
-        </table>
+        <div class="footer-text">
+            <?php echo get_theme_mod('footer_adress', ''); ?> </br>
+            <?php echo get_theme_mod('footer_phone', ''); ?> </br>
+            <?php echo get_theme_mod('footer_mail', ''); ?> </br>
+        </div>
     </div>
 </footer>
 
