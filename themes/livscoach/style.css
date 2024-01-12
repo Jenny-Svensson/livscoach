@@ -25,15 +25,18 @@ body {
 }
 
 .content {
-    flex-grow: 1; /* This will allow the main content to grow and push the footer to the bottom */
+    flex-grow: 1;
+    /* This will allow the main content to grow and push the footer to the bottom */
 }
 
 p {
     text-align: justify;
-    padding: 0 32px;
+    padding: 32px 32px;
 }
 
-h1, h2, h3{
+h1,
+h2,
+h3 {
     font-family: "Quiche_Regular";
     margin-bottom: 0;
     padding: 0 32px;
@@ -41,4 +44,10 @@ h1, h2, h3{
 
 .wp-block-columns.has-background {
     padding: 0;
+}
+
+.wp-block-button__link {
+    font-family: "Pontiac_Light";
+    cursor: pointer;
+    padding: 24px 48px;
 }
