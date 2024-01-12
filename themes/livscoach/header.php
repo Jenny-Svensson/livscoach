@@ -17,7 +17,7 @@
                 ?>
                 <img class="mb-1 mx-auto logo" src="<?php echo $logo[0] ?>" alt="logo">
             </a>
-            <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <nav class="navbar navbar-expand-lg navbar-dark">
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navigation"
                     aria-controls="navigation" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="bar bar1"></span>
