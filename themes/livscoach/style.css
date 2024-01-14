@@ -35,6 +35,15 @@ p {
     font-family: "Pontiac_Light";
 }
 
+a {
+    text-decoration: none;
+    cursor: pointer;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
 h1,
 h2,
 h3 {
@@ -47,8 +56,16 @@ h3 {
     padding: 0;
 }
 
+.wp-block-columns {
+    padding: 32px 0;
+}
+
 .wp-block-button__link {
     font-family: "Pontiac_Light";
     cursor: pointer;
     padding: 24px 48px;
+}
+
+.wp-block-image .alignleft {
+    margin: 0;
 }
