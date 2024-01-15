@@ -28,8 +28,17 @@
 
         </div>
 
-        <div class="header__flex-container d-flex px-5">
-            <p class="header__subtitle">I samarbete med RGA Training Center</p>
+        <div class="header__flex-container d-flex">
+            <?php
+            $subtitle = get_theme_mod('header_subtitle', '');
+            $subtitle_link = get_theme_mod('header_subtitle_link', '');
+
+            if (!empty($subtitle_link)) {
+                echo '<a href="' . esc_url($subtitle_link) . '" class="header__subtitle" target="_blank">' . esc_html($subtitle) . '</a>';
+            } else {
+                echo '<p class="header__subtitle">' . esc_html($subtitle) . '</p>';
+            }
+            ?>
             <div class="collapse navbar-collapse animate__animated animate__fadeInLeft" id="navigation">
                 <?php
                 wp_nav_menu(
@@ -46,13 +55,6 @@
 
     </header>
 
-    <div class="main-wrapper">
-        <header class="page-title theme-bg-light text-center gradient py-5">
-            <h1 class="heading">
-                <?php the_title(); ?>
-            </h1>
-        </header>
-    </div>
 
 </body>
 

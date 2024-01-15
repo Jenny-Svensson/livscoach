@@ -20,6 +20,43 @@ function livscoach_menus()
 add_action('init', 'livscoach_menus');
 
 
+/* SUBTITLE settings */
+function livscoach_subtitle($wp_customize)
+{
+    $wp_customize->add_setting(
+        'header_subtitle',
+        array(
+            'default' => '',
+            'sanitize_callback' => 'sanitize_text_field',
+        )
+    );
+    $wp_customize->add_control(
+        'header_subtitle',
+        array(
+            'label' => __('Header Subtitle', 'theme'),
+            'section' => 'title_tagline',
+            'type' => 'text',
+        )
+    );
+    $wp_customize->add_setting(
+        'header_subtitle_link',
+        array(
+            'default' => '',
+            'sanitize_callback' => 'esc_url_raw',
+        )
+    );
+    $wp_customize->add_control(
+        'header_subtitle_link',
+        array(
+            'label' => __('Header Subtitle Link', 'theme'),
+            'section' => 'title_tagline',
+            'type' => 'url',
+        )
+    );
+}
+
+add_action('customize_register', 'livscoach_subtitle');
+
 /* FOOTER settings */
 function livscoach_footer($wp_customize)
 {
