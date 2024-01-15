@@ -31,13 +31,18 @@ body {
 
 p {
     text-align: justify;
-    padding: 32px 32px;
+    padding: 8px 32px;
     font-family: "Pontiac_Light";
+}
+
+.cta_justify {
+    text-align: justify;
 }
 
 a {
     text-decoration: none;
     cursor: pointer;
+    font-family: "Pontiac_Regular";
 }
 
 a:hover {
@@ -56,14 +61,41 @@ h3 {
     padding: 0;
 }
 
-.wp-block-columns {
-    padding: 32px 0;
+.wp-block-group {
+    padding: 8px 0;
+}
+
+.custom_block {
+    padding: 48px 0;
 }
 
 .wp-block-button__link {
     font-family: "Pontiac_Light";
     cursor: pointer;
     padding: 24px 48px;
+    border: 1px solid transparent;
+    position: relative;
+    display: inline-block;
+    overflow: hidden;
+}
+
+.wp-block-button__link:after {
+    content: '\00a0 \00a0 \2192';
+    position: absolute;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+}
+
+.wp-block-button__link:hover:after {
+    opacity: 1;
+}
+
+
+.wp-block-button__link:hover {
+    background-color: #283326 !important;
+    color: #f2f2f2 !important;
+    border: 1px solid #B8B8B8;
+    text-decoration: none;
 }
 
 .wp-block-image .alignleft {
