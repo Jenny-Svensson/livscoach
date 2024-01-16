@@ -62,11 +62,11 @@ h3 {
 }
 
 .wp-block-group {
-    padding: 8px 0;
+    padding: 32px 0;
 }
 
 .custom_block {
-    padding: 48px 0;
+    padding: 24px 0 0 0;
 }
 
 .wp-block-button__link {
