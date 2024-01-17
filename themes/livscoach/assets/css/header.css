@@ -19,7 +19,7 @@
 
 .header__flex-container {
     padding: 5px 32px;
-    background-color: #485D4C;
+    background-color: rgba(72, 93, 76, 0.5);
 }
 
 .header {

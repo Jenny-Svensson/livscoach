@@ -72,7 +72,7 @@
     transform: rotate(45deg) translate(-6px, -4px);
 }
 
-@media screen and (min-width: 1025px) {
+@media screen and (min-width: 1015px) {
     #navigation {
         display: block;
         position: static;
@@ -126,12 +126,30 @@
     }
 
     .wp-block-group {
-        padding: 1rem 6rem!important;
+        padding: 2rem 6rem!important;
     }
 
-    p {
-        padding: 6rem 6rem!important;
+    .singlepage__p {
+        padding: 4rem 6rem!important;
     }
 
+    .desktop_img {
+        padding: 0rem 6rem!important;
+    }
+
+    .wp-block-column__custom {
+        align-items: center;
+        justify-content: center;
+         display: flex;
+        flex-direction: column;
+    }
+
+    h2.wp-block-heading {
+        font-size: 3rem!important;
+    }
+
+    .wp-block-group__double {
+        padding: 0!important;
+    }
 
 }
