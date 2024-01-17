@@ -7,7 +7,7 @@
 </head>
 
 <body class="animate__animated animate__fadeIn">
-    <header class="header text-center">
+    <header class="header">
         <div class="header__title-container">
             <a class="header__site-title pt-lg-4 mb-0" href="<?php echo home_url(); ?>">
                 <?php if (function_exists('the_custom_logo')) {
