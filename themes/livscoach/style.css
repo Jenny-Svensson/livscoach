@@ -57,6 +57,11 @@ h3 {
     padding: 0 32px;
 }
 
+h4 {
+    font-family: "Quiche_Regular";
+    color: #A5924E;
+}
+
 .wp-block-columns.has-background {
     padding: 0;
 }
