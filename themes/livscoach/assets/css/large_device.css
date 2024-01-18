@@ -1,5 +1,5 @@
 /* Large devices (laptops/desktops, 992px and up) */
-@media only screen and (min-width: 1100px) {
+@media only screen and (min-width: 991.5px) {
     #navigation {
         display: block;
         position: static;
@@ -42,6 +42,7 @@
         width: 50%;
         padding: 10px;
         justify-content: flex-start;
+        font-size: 16px!important;
     }
 
     .header__flex-container {
@@ -53,7 +54,7 @@
     }
 
     .singlepage__p {
-        padding: 4rem 6rem !important;
+        padding: 2rem 6rem !important;
     }
 
     .desktop_img {
@@ -79,6 +80,7 @@
         font-size: 32px!important;
     }
 
+
     .wp-block-group__double {
         padding: 0 !important;
     }
@@ -93,5 +95,21 @@
 
     .custom_block {
         padding: 3rem 6rem!important;
+    }
+
+    .nf-form-cont {
+        padding: 0 !important;
+    }
+
+    .singlepage__h2 {
+        padding: 0 6rem;
+    }
+
+    .logo {
+        width: auto!important;
+    }
+
+    .header__h4-title {
+        font-size: 24px!important;
     }
 }
