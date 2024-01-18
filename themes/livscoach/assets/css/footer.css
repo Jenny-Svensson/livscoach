@@ -1,5 +1,5 @@
 footer {
-    background-color: #6D8172;
+    background-color: rgba(72, 93, 76, 0.5);
     flex-shrink: 0; /* This prevents the footer from shrinking when the content overflows */
 }
 

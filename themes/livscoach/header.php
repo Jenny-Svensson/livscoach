@@ -7,7 +7,7 @@
 </head>
 
 <body class="animate__animated animate__fadeIn">
-    <header class="header text-center">
+    <header class="header">
         <div class="header__title-container">
             <a class="header__site-title pt-lg-4 mb-0" href="<?php echo home_url(); ?>">
                 <?php if (function_exists('the_custom_logo')) {
@@ -16,7 +16,10 @@
                 }
                 ?>
                 <img class="mb-1 mx-auto logo" src="<?php echo $logo[0] ?>" alt="logo">
+                <h4 class="header__h4-title">Livscoach.nu</h4>
+
             </a>
+
             <nav class="navbar navbar-expand-lg navbar-dark">
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navigation"
                     aria-controls="navigation" aria-expanded="false" aria-label="Toggle navigation">

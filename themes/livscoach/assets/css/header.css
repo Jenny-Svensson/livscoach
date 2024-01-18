@@ -8,6 +8,8 @@
 
 .header__site-title {
     margin: 0 auto;
+    text-decoration: none;
+    padding-bottom: 20px;
 }
 
 .header__navbar {
@@ -17,15 +19,11 @@
 
 .header__flex-container {
     padding: 5px 32px;
-    background-color: #485D4C;
+    background-color: rgba(72, 93, 76, 0.5);
 }
 
 .header {
     background-color: #1D281B;
-}
-
-.header__site-title {
-    padding-bottom: 20px;
 }
 
 .header__subtitle {

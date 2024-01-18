@@ -19,6 +19,7 @@
 .navbar-nav {
     list-style-type: none;
     padding: 30vh 50px 50px 50px;
+    text-align: center;
 }
 
 .navbar-nav li {
@@ -71,7 +72,7 @@
     transform: rotate(45deg) translate(-6px, -4px);
 }
 
-@media screen and (min-width: 1025px) {
+@media screen and (min-width: 1015px) {
     #navigation {
         display: block;
         position: static;
@@ -86,11 +87,6 @@
         animation-name: none;
     }
 
-    .header__subtitle {
-        width: 50%;
-        padding: 10px;
-    }
-
     .navbar-nav {
         padding: 0;
         display: flex;
@@ -98,6 +94,10 @@
         justify-content: flex-end;
         align-items: center;
     }
+
+        .navbar-nav li {
+            margin-right: 0;
+        }
 
     .navbar-nav a {
         color: #f2f2f2;
@@ -109,6 +109,48 @@
     .navbar-nav a:hover {
         text-transform: none;
         text-decoration: underline;
+    }
+
+    .header__subtitle {
+        width: 50%;
+        padding: 10px;
+        justify-content: flex-start;
+    }
+
+    .header__flex-container {
+        padding: 5px 6rem;
+    }
+
+    .header__site-title {
+        text-decoration: none!important;
+    }
+
+    .wp-block-group {
+        padding: 2rem 6rem!important;
+    }
+
+    .singlepage__p {
+        padding: 4rem 6rem!important;
+    }
+
+    .desktop_img {
+        padding: 0rem 6rem!important;
+    }
+
+    .wp-block-column__custom {
+        align-items: center;
+        justify-content: center;
+         display: flex;
+        flex-direction: column;
+    }
+
+    h2.wp-block-heading {
+        font-size: 3rem!important;
+        padding-top: 9rem;
+    }
+
+    .wp-block-group__double {
+        padding: 0!important;
     }
 
 }
