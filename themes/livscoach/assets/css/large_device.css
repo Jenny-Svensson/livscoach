@@ -53,7 +53,7 @@
     }
 
     .singlepage__p {
-        padding: 4rem 6rem !important;
+        padding: 2rem 6rem !important;
     }
 
     .desktop_img {
@@ -79,6 +79,7 @@
         font-size: 32px!important;
     }
 
+
     .wp-block-group__double {
         padding: 0 !important;
     }
@@ -93,5 +94,13 @@
 
     .custom_block {
         padding: 3rem 6rem!important;
+    }
+
+    .nf-form-cont {
+        padding: 0 !important;
+    }
+
+    .singlepage__h2 {
+        padding: 0 6rem;
     }
 }
