@@ -11,6 +11,8 @@ Author: Jenny Svensson
 @import url('assets/css/header.css');
 @import url('assets/css/navigation.css');
 @import url('assets/css/footer.css');
+@import url('assets/css/large_device.css');
+@import url('assets/css/medium_device.css');
 
 /* General Styles */
 body {
@@ -37,6 +39,7 @@ p {
 
 .cta_justify {
     text-align: justify;
+    padding: 0;
 }
 
 a {
@@ -67,7 +70,7 @@ h4 {
 }
 
 .wp-block-group {
-    padding: 32px 0;
+    padding: 32px 32px;
 }
 
 .wp-block-button__link {
