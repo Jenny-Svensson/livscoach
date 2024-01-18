@@ -1,0 +1,15 @@
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+    .cta_justify {
+        padding: 0;
+    }
+
+    .cta_heading {
+        padding: 1rem 0!important;
+    }
+
+    h3 {
+        font-size: 1rem;
+    }
+
+}
