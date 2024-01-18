@@ -15,4 +15,8 @@
     .custom_block {
         padding-right: 32px;
     }
+
+    .header__subtitle {
+        width: 100%;
+    }
 }
