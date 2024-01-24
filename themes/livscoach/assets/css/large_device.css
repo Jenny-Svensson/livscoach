@@ -55,13 +55,16 @@
 
     .singlepage__p {
         padding: 2rem 6rem !important;
+        display: flex;
+        justify-content: center;
+        align-items: center;
     }
 
     .desktop_img {
         padding: 0rem 6rem !important;
     }
 
-    .wp-block-column__custom {
+    .wp-block-column {
         align-items: center;
         justify-content: center;
         display: flex;
@@ -72,12 +75,8 @@
         font-size: 3rem !important;
     }
 
-    .custom_h2 {
-        padding-top: 9rem;
-    }
-
     h3 {
-        font-size: 32px!important;
+        font-size: 2rem!important;
     }
 
 
@@ -102,7 +101,7 @@
     }
 
     .singlepage__h2 {
-        padding: 0 6rem;
+        padding: 0 15.5rem;
     }
 
     .logo {
@@ -112,4 +111,8 @@
     .header__h4-title {
         font-size: 24px!important;
     }
+
+        .nf-form-cont {
+            width: 80%;
+        }
 }
