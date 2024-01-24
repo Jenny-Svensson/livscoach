@@ -1,4 +1,7 @@
-/* Navigation Styles */
+.menu-item {
+    padding: 0.625rem;
+}
+
 #navigation {
     position: fixed;
     top: 0;
@@ -9,7 +12,7 @@
     z-index: 10;
     display: none;
     overflow-y: auto;
-    padding-top: 100px;
+    padding-top: 6.25rem;
 }
 
 #navigation.show {
@@ -18,18 +21,18 @@
 
 .navbar-nav {
     list-style-type: none;
-    padding: 30vh 50px 50px 50px;
+    padding: 30vh 3.125rem 3.125rem 3.125rem;
     text-align: center;
 }
 
 .navbar-nav li {
-    margin-right: 15px;
+    margin-right: 0.938rem;
 }
 
 .navbar-nav a {
     color: #f2f2f2;
     text-decoration: none;
-    padding: 25px;
+    padding: 1.563rem;
     font-size: 2rem;
 }
 
@@ -47,21 +50,17 @@
     width: 2rem;
 }
 
-.menu-item {
-    padding: 10px;
-}
-
 .navbar-toggler .bar {
     background-color: #f2f2f2;
-    height: 2px;
-    width: 25px;
-    margin: 5px;
+    height: 0.125rem;
+    width: 1.563rem;
+    margin: 0.313rem;
     display: block;
     transition: 0.6s;
 }
 
 .navbar-toggler[aria-expanded="true"] .bar1 {
-    transform: rotate(-45deg) translate(-6px, 4px);
+    transform: rotate(-45deg) translate(-0.375rem, 0.25rem);
 }
 
 .navbar-toggler[aria-expanded="true"] .bar2 {
@@ -69,5 +68,5 @@
 }
 
 .navbar-toggler[aria-expanded="true"] .bar3 {
-    transform: rotate(45deg) translate(-6px, -4px);
+    transform: rotate(45deg) translate(-0.375rem, -0.25rem);
 }

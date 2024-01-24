@@ -1,15 +1,11 @@
 /* Header Styles */
-.header__title-container {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 32px 32px 0 32px;
+.header {
+    background-color: #1D281B;
 }
 
-.header__site-title {
-    margin: 0 auto;
-    text-decoration: none;
-    padding-bottom: 20px;
+.header__flex-container {
+    background-color: rgba(72, 93, 76, 0.5);
+    padding: 0.313rem 2rem;
 }
 
 .header__navbar {
@@ -17,19 +13,23 @@
     z-index: 1000;
 }
 
-.header__flex-container {
-    padding: 5px 32px;
-    background-color: rgba(72, 93, 76, 0.5);
-}
-
-.header {
-    background-color: #1D281B;
+.header__site-title {
+    margin: 0 auto;
+    padding-bottom: 1.25rem;
+    text-decoration: none;
 }
 
 .header__subtitle {
-    margin: 0;
-    font-size: 16px;
     color: #f2f2f2;
-    padding: 4px 0;
     font-family: "Quiche_Light";
+    font-size: 1rem;
+    margin: 0;
+    padding: 0.25rem 0;
+}
+
+.header__title-container {
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    padding: 2rem 2rem 0 2rem;
 }
