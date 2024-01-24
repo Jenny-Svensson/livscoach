@@ -71,9 +71,10 @@ h4 {
     color: #A5924E;
 }
 
-.wp-block-columns.has-background {
-    padding: 0;
+.custom_h2 {
+    padding-top: 2rem;
 }
+
 
 .wp-block-group {
     padding: 32px 32px;
