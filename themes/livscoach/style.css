@@ -13,8 +13,19 @@ Author: Jenny Svensson
 @import url('assets/css/footer.css');
 @import url('assets/css/large_device.css');
 @import url('assets/css/medium_device.css');
+@import url('assets/css/wp_classes.css');
 
 /* General Styles */
+a {
+    text-decoration: none;
+    cursor: pointer;
+    font-family: "Pontiac_Regular";
+}
+
+a:hover {
+    text-decoration: none;
+}
+
 body {
     font-family: "Pontiac_Regular";
     margin: 0;
@@ -28,30 +39,6 @@ body {
 
 .content {
     flex-grow: 1;
-    /* This will allow the main content to grow and push the footer to the bottom */
-}
-
-p {
-    text-align: justify;
-    padding: 8px 32px;
-    font-family: "Pontiac_Light";
-}
-
-.cta_justify {
-    text-align: justify;
-    padding: 0;
-    max-width: 600px;
-    margin: 0!important;
-}
-
-a {
-    text-decoration: none;
-    cursor: pointer;
-    font-family: "Pontiac_Regular";
-}
-
-a:hover {
-    text-decoration: none;
 }
 
 h1,
@@ -59,7 +46,7 @@ h2,
 h3 {
     font-family: "Quiche_Regular";
     margin-bottom: 0;
-    padding: 0 32px;
+    padding: 0 2rem;
 }
 
 h3 {
@@ -71,59 +58,35 @@ h4 {
     color: #A5924E;
 }
 
+p {
+    text-align: justify;
+    padding: 0.5rem 2rem;
+    font-family: "Pontiac_Light";
+}
+
+/*Custom Styles */
+.cta_justify {
+    text-align: justify;
+    padding: 0;
+    max-width: 40rem;
+    margin: 0 !important;
+}
+
 .custom_h2 {
     padding-top: 2rem;
 }
 
-
-.wp-block-group {
-    padding: 32px 32px;
-    transition: padding 1s ease;
+.header__h4-title {
+    font-size: 1rem;
+    transition: font-size 0.5s ease;
 }
 
-.wp-block-button__link {
-    font-family: "Pontiac_Light";
-    cursor: pointer;
-    padding: 24px 48px;
-    border: 1px solid transparent;
-    position: relative;
-    display: inline-block;
-    overflow: hidden;
-}
-
-.wp-block-button__link:after {
-    content: '\00a0 \00a0 \2192';
-    position: absolute;
-    opacity: 0;
-    transition: opacity 0.6s ease;
-}
-
-.wp-block-button__link:hover:after {
-    opacity: 1;
-}
-
-
-.wp-block-button__link:hover {
-    background-color: #283326 !important;
-    color: #f2f2f2 !important;
-    border: 1px solid #B8B8B8;
-    text-decoration: none;
-}
-
-.wp-block-image .alignleft {
-    margin: 0;
+.logo {
+    width: 6.25rem;
+    transition: width 1s ease;
 }
 
 .nf-form-cont {
     padding: 0 2rem;
 }
 
-.logo {
-    width: 100px;
-    transition: width 1s ease;
-}
-
-.header__h4-title {
-    font-size: 16px;
-    transition: font-size 0.5s ease;
-}

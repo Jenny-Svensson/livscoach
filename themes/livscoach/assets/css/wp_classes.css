@@ -1,0 +1,37 @@
+.wp-block-group {
+    padding: 32px 32px;
+    transition: padding 1s ease;
+}
+
+.wp-block-button__link {
+    font-family: "Pontiac_Light";
+    cursor: pointer;
+    padding: 24px 48px;
+    border: 1px solid transparent;
+    position: relative;
+    display: inline-block;
+    overflow: hidden;
+}
+
+.wp-block-button__link:after {
+    content: '\00a0 \00a0 \2192';
+    position: absolute;
+    opacity: 0;
+    transition: opacity 0.6s ease;
+}
+
+.wp-block-button__link:hover:after {
+    opacity: 1;
+}
+
+
+.wp-block-button__link:hover {
+    background-color: #283326 !important;
+    color: #f2f2f2 !important;
+    border: 1px solid #B8B8B8;
+    text-decoration: none;
+}
+
+.wp-block-image .alignleft {
+    margin: 0;
+}
