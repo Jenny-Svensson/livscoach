@@ -21,6 +21,7 @@
     }
 
     .header__h4-title {
+        display: block!important;
         font-size: 1.5rem !important;
     }
 
@@ -33,6 +34,34 @@
         padding: 0.625rem;
         width: 50%;
         font-size: 1rem !important;
+    }
+
+    .header__title-container {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        justify-content: center;
+        padding: 0 32px 0 32px;
+    }
+    
+    .header__site-title {
+        margin: 0;
+        text-decoration: none;
+        padding-bottom: 20px;
+        display: flex;
+        align-items: center;
+    }
+    
+     .header__h4-title {
+        font-size: 2.5rem!important;
+        transition: font-size 0.5s ease;
+        margin-left: 2rem;
+        padding-top: 5rem;
+    }
+    
+    .logo {
+        width: 6.25rem;
+        transition: width 1s ease;
     }
 
     h2.wp-block-heading {
