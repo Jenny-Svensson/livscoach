@@ -55,34 +55,24 @@
 
     .singlepage__p {
         padding: 2rem 6rem !important;
-    }
-
-    .desktop_img {
-        padding: 0rem 6rem !important;
-    }
-
-    .wp-block-column__custom {
-        align-items: center;
-        justify-content: center;
         display: flex;
-        flex-direction: column;
+        justify-content: center;
+        align-items: center;
     }
 
     h2.wp-block-heading {
         font-size: 3rem !important;
     }
 
-    .custom_h2 {
-        padding-top: 9rem;
+    h3.wp-block-heading {
+        font-size: 2rem!important;
     }
 
-    h3 {
-        font-size: 32px!important;
-    }
-
-
-    .wp-block-group__double {
-        padding: 0 !important;
+    .left-column {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
     }
 
     .cta_justify {
@@ -97,12 +87,20 @@
         padding: 3rem 6rem!important;
     }
 
+    .no_padding {
+        padding: 1rem 0!important;
+    }
+
+    .custom_block_margin {
+        margin: 0!important;
+    }
+
     .nf-form-cont {
         padding: 0 !important;
     }
 
     .singlepage__h2 {
-        padding: 0 6rem;
+        padding: 0 6rem!important;
     }
 
     .logo {
@@ -112,4 +110,13 @@
     .header__h4-title {
         font-size: 24px!important;
     }
+
+    .nf-form-cont {
+        width: 80%;
+    }
+
+    .is-style-default {
+        padding-left: 1.5rem!important;
+    }
+
 }
