@@ -1,0 +1,14 @@
+footer {
+    background-color: rgba(72, 93, 76, 0.5);
+    flex-shrink: 0; /* This prevents the footer from shrinking when the content overflows */
+}
+
+.footer__content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer__title {
+    font-family: "Quiche_Bold";
+}

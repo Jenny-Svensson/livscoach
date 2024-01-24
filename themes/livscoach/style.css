@@ -1,0 +1,92 @@
+/*
+Theme Name: Livscoach
+Text Domain: Livscoach
+Version: 1.0
+Description: Livscoach med Olga Anton
+Tags: Livscoach, Hälsocombo, Samtalsstöd
+Author: Jenny Svensson
+*/
+
+@import url('assets/fonts/fonts.css');
+@import url('assets/css/header.css');
+@import url('assets/css/navigation.css');
+@import url('assets/css/footer.css');
+@import url('assets/css/large_device.css');
+@import url('assets/css/medium_device.css');
+@import url('assets/css/wp_classes.css');
+
+/* General Styles */
+a {
+    text-decoration: none;
+    cursor: pointer;
+    font-family: "Pontiac_Regular";
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+body {
+    font-family: "Pontiac_Regular";
+    margin: 0;
+    padding: 0;
+    background-color: #1D281B;
+    color: #f2f2f2;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.content {
+    flex-grow: 1;
+}
+
+h1,
+h2,
+h3 {
+    font-family: "Quiche_Regular";
+    margin-bottom: 0;
+    padding: 0 2rem;
+}
+
+h3 {
+    font-size: 1.5rem;
+}
+
+h4 {
+    font-family: "Quiche_Regular";
+    color: #A5924E;
+}
+
+p {
+    text-align: justify;
+    padding: 0.5rem 2rem;
+    font-family: "Pontiac_Light";
+}
+
+/*Custom Styles */
+.cta_justify {
+    text-align: justify;
+    padding: 0;
+    max-width: 40rem;
+    margin: 0 !important;
+}
+
+.custom_h2 {
+    padding-top: 2rem;
+}
+
+.header__h4-title {
+    font-size: 1rem;
+    transition: font-size 0.5s ease;
+}
+
+.logo {
+    width: 6.25rem;
+    transition: width 1s ease;
+}
+
+.nf-form-cont {
+    padding: 0 2rem;
+}
+

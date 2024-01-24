@@ -1,0 +1,123 @@
+/* Large devices (laptops/desktops, 991.5px and up) */
+@media only screen and (min-width: 991.5px) {
+    .cta_heading {
+        padding: 2rem 0 !important;
+    }
+
+    .cta_justify {
+        padding: 0;
+    }
+
+    .custom_block {
+        padding: 3rem 6rem !important;
+    }
+
+    .custom_block_margin {
+        margin: 0 !important;
+    }
+
+    .header__flex-container {
+        padding: 0.313rem 6rem;
+    }
+
+    .header__h4-title {
+        font-size: 1.5rem !important;
+    }
+
+    .header__site-title {
+        text-decoration: none !important;
+    }
+
+    .header__subtitle {
+        justify-content: flex-start;
+        padding: 0.625rem;
+        width: 50%;
+        font-size: 1rem !important;
+    }
+
+    h2.wp-block-heading {
+        font-size: 3rem !important;
+    }
+
+    h3.wp-block-heading {
+        font-size: 2rem !important;
+    }
+
+    #navigation {
+        background-color: transparent;
+        display: block;
+        font-size: 1rem;
+        height: auto;
+        padding-top: 0;
+        position: static;
+        width: auto;
+    }
+
+    #navigation.animate__animated {
+        animation-name: none;
+    }
+
+    .is-style-default {
+        padding-left: 1.5rem !important;
+    }
+
+    .left-column {
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .logo {
+        width: auto !important;
+    }
+
+    .navbar-nav {
+        align-items: center;
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-end;
+        padding: 0;
+    }
+
+    .navbar-nav a {
+        color: #f2f2f2;
+        font-size: 1rem;
+        padding: 0;
+        text-decoration: none;
+    }
+
+    .navbar-nav a:hover {
+        text-decoration: underline;
+        text-transform: none;
+    }
+
+    .navbar-nav li {
+        margin-right: 0;
+    }
+
+    .navbar-toggler-icon {
+        height: 2rem;
+        width: 2rem;
+    }
+
+    .nf-form-cont {
+        padding: 0 !important;
+        width: 80%;
+    }
+
+    .no_padding {
+        padding: 1rem 0 !important;
+    }
+
+    .singlepage__h2 {
+        padding: 0 6rem !important;
+    }
+
+    .singlepage__p {
+        align-items: center;
+        display: flex;
+        justify-content: center;
+        padding: 2rem 6rem !important;
+    }
+}

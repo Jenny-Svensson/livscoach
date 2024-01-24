@@ -1,0 +1,26 @@
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+    .cta_heading {
+        padding: 1rem 0 !important;
+    }
+
+    .cta_justify {
+        padding: 0;
+    }
+
+    .custom_block {
+        padding-right: 2rem;
+    }
+
+    .header__subtitle {
+        width: 100%;
+    }
+
+    .is-style-default {
+        padding-left: 0;
+    }
+
+    .singlepage__h2 {
+        padding: 0 11rem;
+    }
+}
