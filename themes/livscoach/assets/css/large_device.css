@@ -17,15 +17,22 @@
     }
 
     .header__flex-container {
-        padding: 0.313rem 6rem;
+        padding: 0.313rem 6rem 0.313rem 15rem;
     }
 
     .header__h4-title {
-        font-size: 1.5rem !important;
+        display: block!important;
+        font-size: 2.5rem!important;
+        position: absolute;
+        top: 11.5rem;
+        left: 15.5rem;
     }
 
     .header__site-title {
         text-decoration: none !important;
+        margin: 0!important;
+        display: flex;
+        flex-direction: row;
     }
 
     .header__subtitle {
@@ -35,6 +42,10 @@
         font-size: 1rem !important;
     }
 
+    .header__title-container {
+        position: relative;
+    }
+            
     h2.wp-block-heading {
         font-size: 3rem !important;
     }
@@ -69,6 +80,8 @@
     }
 
     .logo {
+        position: relative;
+        top: 3.5rem;
         width: auto !important;
     }
 
