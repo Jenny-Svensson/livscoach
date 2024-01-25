@@ -16,7 +16,7 @@
                     $logo = wp_get_attachment_image_src($custom_logo_id);
                 }
                 ?>
-                <img class="mb-1 mx-auto logo" src="<?php echo $logo[0] ?>" alt="logo">
+                <img class="logo" src="<?php echo $logo[0] ?>" alt="logo">
                 <h4 class="header__h4-title">Livscoach.nu</h4>
 
             </a>
