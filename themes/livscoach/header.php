@@ -10,7 +10,7 @@
 <body class="animate__animated animate__fadeIn">
     <header class="header">
         <div class="header__title-container">
-            <a class="header__site-title pt-lg-4 mb-0" href="<?php echo home_url(); ?>">
+            <a class="header__site-title" href="<?php echo home_url(); ?>">
                 <?php if (function_exists('the_custom_logo')) {
                     $custom_logo_id = get_theme_mod('custom_logo');
                     $logo = wp_get_attachment_image_src($custom_logo_id);
