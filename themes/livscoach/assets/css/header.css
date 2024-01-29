@@ -19,6 +19,10 @@
     text-decoration: none;
 }
 
+ .header__h4-title {
+    display:none;
+}
+
 .header__subtitle {
     color: #f2f2f2;
     font-family: "Quiche_Light";
@@ -31,5 +35,5 @@
     align-items: center;
     display: flex;
     justify-content: space-between;
-    padding: 2rem 2rem 0 2rem;
+    padding: 2rem 6rem 0 6rem;
 }

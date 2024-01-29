@@ -17,16 +17,22 @@
     }
 
     .header__flex-container {
-        padding: 0.313rem 6rem;
+        padding: 0.313rem 6rem 0.313rem 15rem;
     }
 
     .header__h4-title {
         display: block!important;
-        font-size: 1.5rem !important;
+        font-size: 2.5rem!important;
+        position: absolute;
+        top: 7.5rem;
+        left: 15.5rem;
     }
 
     .header__site-title {
         text-decoration: none !important;
+        margin: 0!important;
+        display: flex;
+        flex-direction: row;
     }
 
     .header__subtitle {
@@ -37,33 +43,10 @@
     }
 
     .header__title-container {
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        justify-content: center;
-        padding: 0 32px 0 32px;
+        position: relative;
+        padding: 0 6rem 0 6rem;
     }
-    
-    .header__site-title {
-        margin: 0;
-        text-decoration: none;
-        padding-bottom: 20px;
-        display: flex;
-        align-items: center;
-    }
-    
-     .header__h4-title {
-        font-size: 2.5rem!important;
-        transition: font-size 0.5s ease;
-        margin-left: 2rem;
-        padding-top: 5rem;
-    }
-    
-    .logo {
-        width: 6.25rem;
-        transition: width 1s ease;
-    }
-
+            
     h2.wp-block-heading {
         font-size: 3rem !important;
     }
@@ -98,6 +81,8 @@
     }
 
     .logo {
+        position: relative;
+        top: 3.5rem;
         width: auto !important;
     }
 
