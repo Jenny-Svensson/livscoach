@@ -15,6 +15,16 @@ Author: Jenny Svensson
 @import url('assets/css/medium_device.css');
 @import url('assets/css/wp_classes.css');
 
+ :root {
+/* Color Palette */
+     --log_cabin: #1D281B;
+     --limed_oak: #A5924E;
+     --nandor: #485D4C;
+     --xanadu: #6D8172;
+     --moon_mist: #DBDDD1;
+     --concreate: #F2F2F2;
+ }
+
 /* General Styles */
 a {
     text-decoration: none;
@@ -30,8 +40,8 @@ body {
     font-family: "Pontiac_Regular";
     margin: 0;
     padding: 0;
-    background-color: #1D281B;
-    color: #f2f2f2;
+    background-color: var(--log_cabin);
+    color: var(--concreate);
     display: flex;
     flex-direction: column;
     min-height: 100vh;
@@ -55,7 +65,7 @@ h3 {
 
 h4 {
     font-family: "Quiche_Regular";
-    color: #A5924E;
+    color: var(--limed_oak);
 }
 
 p {
@@ -75,17 +85,3 @@ p {
 .custom_h2 {
     padding-top: 2rem;
 }
-
-.header__h4-title {
-    display: none;
-}
-
-.logo {
-    width: 6.25rem;
-    transition: width 1s ease;
-}
-
-.nf-form-cont {
-    padding: 0 2rem;
-}
-
