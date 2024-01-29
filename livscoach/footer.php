@@ -10,6 +10,11 @@
     </div>
 </footer>
 
+    <div class="footer__copyright">
+        <h4 class="footer__copyright-h4">© 2024 Livscoach.nu - All rights reserved. Theme by 
+            <a href="https://github.com/Jenny-Svensson" class="footer__link" target="_blank">Jenny Svensson</a>
+        </h4>
+    </div>
 <?php
 wp_footer();
 ?>
