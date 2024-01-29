@@ -1,6 +1,6 @@
 /* Header Styles */
 .header {
-    background-color: #1D281B;
+    background-color: var(--log_cabin);
 }
 
 .header__flex-container {
@@ -24,7 +24,7 @@
 }
 
 .header__subtitle {
-    color: #f2f2f2;
+    color: var(--concreate);
     font-family: "Quiche_Light";
     font-size: 1rem;
     margin: 0;
@@ -36,4 +36,9 @@
     display: flex;
     justify-content: space-between;
     padding: 2rem 6rem 0 6rem;
+}
+
+.logo {
+    width: 6.25rem;
+    transition: width 1s ease;
 }

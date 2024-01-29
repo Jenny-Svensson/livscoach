@@ -1,3 +1,7 @@
+.nf-form-cont {
+    padding: 0 2rem;
+}
+
 .wp-block-button__link {
     border: 0.0625rem solid transparent;
     cursor: pointer;
@@ -16,9 +20,9 @@
 }
 
 .wp-block-button__link:hover {
-    background-color: #283326 !important;
-    border: 0.0625rem solid #B8B8B8;
-    color: #f2f2f2 !important;
+    background-color: var(--log_cabin) !important;
+    border: 0.0625rem solid var(--moon_mist);
+    color: var(--concreate) !important;
     text-decoration: none;
 }
 
