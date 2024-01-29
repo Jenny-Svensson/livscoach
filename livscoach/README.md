@@ -10,3 +10,6 @@ This project serves as the degree project for the Frontend Developer program at 
 - **CSS:** Applied for styling and layout.
 - **Bootstrap:** Integrated for responsive and mobile-first design.
 - **PHP:** Utilized for server-side scripting within the WordPress environment.
+
+## Author
+- @Jenny-Svensson
