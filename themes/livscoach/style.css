@@ -30,6 +30,7 @@ a {
     text-decoration: none;
     cursor: pointer;
     font-family: "Pontiac_Regular";
+    color: var(--concreate);
 }
 
 a:hover {

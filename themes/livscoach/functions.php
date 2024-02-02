@@ -147,8 +147,10 @@ function livscoach_register_scripts()
     wp_enqueue_script('livscoach-jquery', 'https://code.jquery.com/jquery-3.2.1.slim.min.js', array(), '3.2.1', true);
     wp_enqueue_script('livscoach-popper', 'https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js', array(), '1.12.9', true);
     wp_enqueue_script('livscoach-bootstrap', 'https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js', array(), '4.0.0', true);
+    wp_enqueue_script('gsap', 'https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js', array(), '3.12.5', true);
     wp_enqueue_script('livscoach-main', get_template_directory_uri() . "/assets/javascript/main.js", array(), '1.0', true);
 }
+
 add_action('wp_enqueue_scripts', 'livscoach_register_scripts');
 
 ?>
